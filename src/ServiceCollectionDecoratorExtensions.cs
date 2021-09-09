@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Artsoftheinsane.Extensions.ServiceCollectionDecorator
 {
-    public static class ServiceCollectionExtensions
+    public static class ServiceCollectionDecoratorExtensions
     {
         public static void Decorate<TInterface, TDecorator>(this IServiceCollection services)
           where TInterface : class
